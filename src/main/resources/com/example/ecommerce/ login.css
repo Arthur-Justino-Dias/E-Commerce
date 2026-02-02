@@ -1,0 +1,17 @@
+.transparent-field {
+    -fx-background-color: transparent;
+    -fx-control-inner-background: transparent;
+
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: rgba(255,255,255,0.6);
+
+    -fx-border-color: white;
+    -fx-border-width: 0 0 2 0;
+
+    -fx-background-insets: 0;
+    -fx-padding: 6 4 6 4;
+}
+
+.transparent-field:focused {
+    -fx-border-color: #00e5ff;
+}
