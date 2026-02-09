@@ -29,17 +29,17 @@
             <Font name="PricedownBl-Regular" size="12.0" />
          </font>
       </TextField>
-      <Label layoutX="53.0" layoutY="100.0" text="NOME">
+      <Label layoutX="53.0" layoutY="100.0" text="NOME" textFill="WHITE" wrapText="true">
          <font>
             <Font name="PricedownBl-Regular" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="49.0" layoutY="161.0" text="E-MAIL">
+      <Label layoutX="49.0" layoutY="161.0" text="E-MAIL" textFill="WHITE">
          <font>
             <Font name="PricedownBl-Regular" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="57.0" layoutY="213.0" text="CPF">
+      <Label layoutX="57.0" layoutY="213.0" text="CPF" textFill="WHITE">
          <font>
             <Font name="PricedownBl-Regular" size="18.0" />
          </font>
