@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane prefHeight="427.0" prefWidth="758.0" stylesheets="@login.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+
+          <children>
+
+              <ImageView blendMode="MULTIPLY" fitHeight="480.0" fitWidth="757.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Images/iKGs9DvGL594rf3whuTdi9-1200-80.jpg" />
+            </image>
+        </ImageView>
+
+              <Rectangle arcHeight="5.0" arcWidth="5.0" height="480.0" opacity="0.0" width="757.0" />
+
+              <TextField layoutX="303.0" layoutY="211.0" promptText="Digite seu Usuário" styleClass="transparent-field">
+         <font>
+            <Font name="PricedownBl-Regular" size="14.0" />
+         </font>
+      </TextField>
+
+              <PasswordField layoutX="303.0" layoutY="283.0" promptText="Digite sua Senha" styleClass="transparent-field">
+         <font>
+            <Font name="PricedownBl-Regular" size="14.0" />
+         </font>
+      </PasswordField>
+
+              <Button layoutX="682.0" layoutY="388.0" mnemonicParsing="false" text="Entrar" wrapText="true">
+         <font>
+            <Font name="PricedownBl-Regular" size="14.0" />
+         </font>
+      </Button>
+
+              <Button layoutX="12.0" layoutY="388.0" mnemonicParsing="false" text="Cancelar">
+         <font>
+            <Font name="PricedownBl-Regular" size="14.0" />
+         </font>
+      </Button>
+
+              <Label layoutX="26.0" layoutY="215.0" text="USUÁRIO">
+         <font>
+            <Font name="PricedownBl-Regular" size="18.0" />
+         </font>
+      </Label>
+
+              <Label layoutX="26.0" layoutY="287.0" text="SENHA">
+         <font>
+            <Font name="PricedownBl-Regular" size="18.0" />
+         </font>
+      </Label>
+
+              <Label layoutX="26.0" layoutY="40.0" text="BEM VINDO">
+         <font>
+            <Font name="PricedownBl-Regular" size="18.0" />
+         </font>
+      </Label>
+      <CheckBox layoutX="303.0" layoutY="334.0" mnemonicParsing="false" text="Lembre-se deste Login" textFill="WHITE">
+         <font>
+            <Font name="PricedownBl-Regular" size="18.0" />
+         </font>
+      </CheckBox>
+
+          </children>
+</Pane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="334.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ecommerce.controller.ClientesController">
+   <children>
+      <ImageView fitHeight="602.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/iKGs9DvGL594rf3whuTdi9-1200-80.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="166.0" layoutY="98.0" prefHeight="25.0" prefWidth="160.0" promptText="Digite o Nome do Cliente">
+         <font>
+            <Font name="PricedownBl-Regular" size="12.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="163.0" layoutY="157.0" prefHeight="24.0" prefWidth="149.0" promptText="Digite o E-mail do Cliente">
+         <font>
+            <Font name="PricedownBl-Regular" size="12.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="163.0" layoutY="209.0" prefHeight="24.0" prefWidth="149.0" promptText="Digite o CPF do Cliente">
+         <font>
+            <Font name="PricedownBl-Regular" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="53.0" layoutY="100.0" text="NOME">
+         <font>
+            <Font name="PricedownBl-Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="49.0" layoutY="161.0" text="E-MAIL">
+         <font>
+            <Font name="PricedownBl-Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="213.0" text="CPF">
+         <font>
+            <Font name="PricedownBl-Regular" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "Pricedown bl";
+    src: url("fonts/Pricedown.ttf");
+}
+
+.menu-bar {
+    -fx-background-color: Black;
+    -fx-effect: null;
+}
+
+.menu-bar > .container > .menu > .label {
+    -fx-font-family: "Pricedown bl";
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffcc00;
+    -fx-effect: null;
+}
+
+.context-menu,
+.menu-popup {
+    -fx-background-color: black;
+    -fx-border-color: transparent;
+    -fx-border-width: 1;
+
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 8, 0, 0, 3);
+}
+
+.menu-item .label {
+    -fx-font-family: "Pricedown bl";
+    -fx-font-size: 16px;
+    -fx-text-fill: #ffcc00;
+    -fx-effect: null;
+}
+
+.menu-item:hover {
+    -fx-background-color: transparent;
+    -fx-effect: null;
+}
+
+.menu-item:focused,
+.menu-item:selected {
+    -fx-background-color: transparent;
+    -fx-effect: null;
+}
+
+.menu-item:focused .label,
+.menu-item:selected .label {
+    -fx-text-fill: white;
+    -fx-effect: null;
+}
+
+.menu-button {
+    -fx-font-family: "Pricedown bl";
+    -fx-font-size: 16px;
+
+    -fx-background-color: black;
+    -fx-text-fill: white;
+
+    -fx-padding: 6 18 6 18;
+    -fx-alignment: CENTER_LEFT;
+
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+
+    -fx-background-insets: 0;
+    -fx-border-insets: 0;
+
+    -fx-background-radius: 0;
+    -fx-border-radius: 0;
+
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-highlight-fill: transparent;
+    -fx-effect: null;
+}
+
+.menu-button:hover {
+    -fx-background-color: transparent;
+
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+    -fx-focus-color: transparent;
+}
+
+.menu-button:pressed,
+.menu-button:armed,
+.menu-button:focused {
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+
+    -fx-background-insets: 0;
+    -fx-border-color: transparent;
+    -fx-effect: null;
+}
+
+.menu-button .text {
+    -fx-effect: null;
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+    -fx-focus-color: transparent;
+}
+
+
+

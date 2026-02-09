@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="337.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Images/iKGs9DvGL594rf3whuTdi9-1200-80.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="TOP_CENTER" prefHeight="338.0" prefWidth="600.0" text="GTA Store">
+         <font>
+            <Font name="PricedownBl-Regular" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
