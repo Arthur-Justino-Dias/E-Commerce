@@ -6,18 +6,15 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<StackPane xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ecommerce.Controller.HomeController">
-
-    <ImageView preserveRatio="true">
+<StackPane fx:id="root" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+    <ImageView fx:id="backgroundImage" preserveRatio="false">
         <image>
-            <Image url="@../Images/iKGs9DvGL594rf3whuTdi9-1200-80.jpg" />
+            <Image url="@../Images/iKGs9DvGL594rf3whuTdi9-1200-80.jpg"/>
         </image>
     </ImageView>
-
-    <Label contentDisplay="TOP" text="GTA Store" StackPane.alignment="TOP_CENTER">
+    <Label text="GTA Store" StackPane.alignment="TOP_CENTER">
         <font>
-            <Font name="PricedownBl-Regular" size="36.0" />
+            <Font name="PricedownBl-Regular" size="36"/>
         </font>
     </Label>
-
 </StackPane>

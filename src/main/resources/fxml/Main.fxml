@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+
+<StackPane
+        xmlns="http://javafx.com/javafx/25"
+        xmlns:fx="http://javafx.com/fxml/1"
+        fx:controller="com.example.ecommerce.Controller.MainController">
+
+    <StackPane fx:id="homeLayer">
+
+        <ImageView fx:id="backgroundImage" preserveRatio="false">
+            <image>
+                <Image url="@/Images/iKGs9DvGL594rf3whuTdi9-1200-80.jpg"/>
+            </image>
+        </ImageView>
+
+        <Label text="GTA Store" StackPane.alignment="TOP_CENTER">
+            <font>
+                <Font name="PricedownBl-Regular" size="36"/>
+            </font>
+        </Label>
+
+    </StackPane>
+
+    <BorderPane fx:id="root">
+
+        <top>
+            <MenuBar>
+                <Menu text="Menu">
+                    <MenuItem text="Home" onAction="#abrirHome"/>
+                    <MenuItem text="Clientes" onAction="#abrirClientes"/>
+                    <MenuItem text="Produtos" onAction="#abrirProdutos"/>
+                    <MenuItem text="SAC" onAction="#abrirSAC"/>
+                </Menu>
+            </MenuBar>
+        </top>
+
+    </BorderPane>
+
+</StackPane>

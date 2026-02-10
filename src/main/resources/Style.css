@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "Pricedown bl";
+    font-family: "Pricedown Bl";
     src: url("fonts/Pricedown.ttf");
 }
 
@@ -9,7 +9,7 @@
 }
 
 .menu-bar > .container > .menu > .label {
-    -fx-font-family: "Pricedown bl";
+    -fx-font-family: "Pricedown Bl";
     -fx-font-size: 16px;
     -fx-text-fill: #ffcc00;
     -fx-effect: null;
@@ -25,7 +25,7 @@
 }
 
 .menu-item .label {
-    -fx-font-family: "Pricedown bl";
+    -fx-font-family: "Pricedown Bl";
     -fx-font-size: 16px;
     -fx-text-fill: #ffcc00;
     -fx-effect: null;
@@ -49,7 +49,7 @@
 }
 
 .menu-button {
-    -fx-font-family: "Pricedown bl";
+    -fx-font-family: "Pricedown Bl";
     -fx-font-size: 16px;
 
     -fx-background-color: black;
@@ -100,5 +100,50 @@
     -fx-focus-color: transparent;
 }
 
+.table-view {
+    -fx-font-family: "Pricedown Bl";
+    -fx-font-size: 12px;
+
+    -fx-background-color: rgba(0, 0, 0, 0.55);
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: rgba(255, 255, 255, 0.3);
+}
+
+.table-view .column-header-background {
+    -fx-background-color: black;
+}
+
+.table-view .column-header,
+.table-view .column-header .label {
+    -fx-font-family: "Pricedown Bl";
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffcc00;
+    -fx-alignment: CENTER;
+}
+
+.table-cell {
+    -fx-font-family: "Pricedown Bl";
+    -fx-font-size: 12px;
+    -fx-text-fill: white;
+    -fx-alignment: CENTER;
+}
+
+.table-row-cell {
+    -fx-background-color: transparent;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: rgba(255, 255, 255, 0.05);
+}
+
+.table-row-cell:selected {
+    -fx-background-color: rgba(255, 204, 0, 0.35);
+}
+
+.table-view:focused {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
 
 

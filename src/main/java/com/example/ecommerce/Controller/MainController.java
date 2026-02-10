@@ -2,10 +2,13 @@ package com.example.ecommerce.Controller;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.layout.BorderPane;
 import javafx.scene.Node;
+import javafx.scene.layout.BorderPane;
+import java.io.IOException;
+import java.net.URL;
 
 public class MainController {
+
     @FXML
     private BorderPane root;
 
@@ -15,37 +18,40 @@ public class MainController {
     }
 
     @FXML
-    public void abrirHome(){
+    public void abrirHome() {
         carregarTela("Home.fxml");
     }
 
     @FXML
-    public void abrirSobre(){
-        carregarTela("Sobre.fxml");
+    public void abrirClientes() {
+        carregarTela("Clientes.fxml");
     }
 
     @FXML
-    public void abrirSAC(){
-        carregarTela("SAC.fxml");
-    }
-
-    @FXML
-    public void abrirProdutos(){
+    public void abrirProdutos() {
         carregarTela("Produtos.fxml");
     }
 
     @FXML
-    public void abrirClientes(){
-        carregarTela("Clientes.fxml");
+    public void abrirSobre() {
+        carregarTela("Sobre.fxml");
+    }
+
+    @FXML
+    public void abrirSAC() {
+        carregarTela("SAC.fxml");
     }
 
     private void carregarTela(String fxml) {
         try {
-            Node tela = FXMLLoader.load(
-                    getClass().getResource("/fxml/" + fxml)
-            );
+            URL url = getClass().getResource("/fxml/" + fxml);
+            if (url == null) {
+                throw new RuntimeException("FXML não encontrado: " + fxml);
+            }
+            FXMLLoader loader = new FXMLLoader(url);
+            Node tela = loader.load();
             root.setCenter(tela);
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
     }
